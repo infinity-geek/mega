@@ -1,4 +1,4 @@
-# medict
+# erbuc
 > Convert [mega.nz](https://mega.nz) public links to direct links
 
 ## How to use
@@ -21,8 +21,13 @@
     └── direct.js  Main function 
 ```
 
+## Author
+Site: [laont.me](https://laont.me)
+
+Email: [stanislav@laont.me](mailto:stanislav@laont.me)
+
+You can [donate me](https://capu.st/laont). It will help me a lot in my endeavors
+
 ## License
 This repository is licensed under [MIT license](/LICENSE.md). You can freely copy, modify and distribute code, but with notice about license and copyright
 
-## Support me
-You can [donate me](https://capu.st/laont). It will help me a lot in my endeavors
