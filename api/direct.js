@@ -1,9 +1,9 @@
-const { promisify } = require('util');
 const megajs = require('megajs');
-const fileType = require('file-type');
+const mime = require('mime');
 
-module.exports = async (req, res) => {
+module.exports = (req, res) => {
   let link = decodeURIComponent(req.query.link);
+  console.log(link);
   let file = megajs.file(link);
   const options = {
     maxConnections: 10,
@@ -14,10 +14,11 @@ module.exports = async (req, res) => {
   };
 
   file.loadAttributes((err, file) => {
-    file.download(options, async (err, data) => {
-      await res.setHeader('Conent-Type', fileType.fromBuffer(data));
-      res.write(data);
-      res.end();
+    console.log(err);
+    file.download(options, (err, data) => {
+      console.log(err);
+      res.setHeader('Content-Type', mime.getType(file.name));
+      return res.status(200).send(data);
     });
   });
 };

@@ -3,26 +3,21 @@
   "headers": [
     {
       "source": "/api/direct",
-      "headers" : [
+      "headers": [
         {
-          "key" : "Cache-Control",
-          "value" : "public, max-age=157784760, s-maxage=157784760"
+          "key": "Cache-Control",
+          "value": "public, max-age=157784760, s-maxage=157784760"
         },
         {
-          "key" : "Accept-Charset",
-          "value" : "utf-8"
-        },
-        {
-          "key" : "Accept-Charset",
-          "value" : "utf-8"
+          "key": "Accept-Charset",
+          "value": "utf-8"
         }
       ]
     }
   ],
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "link.html"
+  "functions": {
+    "api/direct.js": {
+      "maxDuration": 10
     }
-  ]
+  }
 }

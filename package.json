@@ -1,17 +1,17 @@
 {
   "name": "medict",
-  "version": "1.1.0",
-  "description": "Mega direct links",
+  "version": "1.2.0",
+  "description": "Convert mega.nz public links to direct links",
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "file-type": "^14.6.2",
-    "megajs": "^0.17.0"
+    "megajs": "^0.17.0",
+    "mime": "^2.4.6"
   },
   "author": {
     "name": "Stanislav Smirnov",
     "email": "stanislav@laont.me",
-    "url": "https://laont.me"
+    "url": "https://laont.me/"
   },
   "repository": {
     "type": "git",

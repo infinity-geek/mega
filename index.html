@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset='UTF-8'>
+<title>erbuc</title>
+
+<input type='url' id='link' oninput='genLink(this.value)'>
+<p id="ready-link">Your link here</p>
+<script>
+  function genLink(link) {
+    let api = 'https://erbuc.laont.me/api/direct/?link='
+    let url = api + encodeURIComponent(link);
+    document.getElementById('ready-link').innerText = url;
+  }
+</script>
+
+</html>
