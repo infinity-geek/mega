@@ -8,7 +8,7 @@
 ## How to use
 1. Go to [mega.nz](https://mega.nz)
 1. Copy full link of **public** file. Template below
-1. Go to [erbuc.laont.me](https://erbuc.laont.me/)
+1. Go to [erbuc.herokuapp.com](https://erbuc.herokuapp.com/)
 1. Paste link, generate direct and use this
 
 ### Selfhosted
