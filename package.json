@@ -1,6 +1,6 @@
 {
-  "name": "medict",
-  "version": "1.2.0",
+  "name": "erbuc",
+  "version": "2.0.0",
   "description": "Convert mega.nz public links to direct links",
   "license": "MIT",
   "private": false,
@@ -15,10 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/medict/medict.git"
+    "url": "https://github.com/laontme/erbuc.git"
   },
   "bugs": {
-    "url": "https://github.com/medict/medict/issues",
+    "url": "https://github.com/laontme/erbuc/issues",
     "email": "stanislav@laont.me"
+  },
+  "scripts": {
+    "start": "node index"
   }
 }

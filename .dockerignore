@@ -1,0 +1,8 @@
+node_modules
+.git
+.github
+.gitignore
+# Dockerfile
+*.md
+# yarn.lock
+app.json

@@ -1,0 +1,11 @@
+{
+  "name": "erbuc",
+  "description": "Convert mega.nz public links to direct links",
+  "repository": "https://github.com/laontme/erbuc",
+  "logo": "https://raw.githubusercontent.com/laontme/erbuc/main/.github/logo.svg",
+  "keywords": [
+    "node",
+    "docker",
+    "meganz"
+  ]
+}

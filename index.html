@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-<meta charset='UTF-8'>
+<meta charset="UTF-8">
 <title>erbuc</title>
 
-<input type='url' id='link' oninput='genLink(this.value)'>
-<p id="ready-link">Your link here</p>
+<input type="url" id="link" oninput="genLink(this.value)">
+<p id="direct-link">Your link here</p>
 <script>
-  function genLink(link) {
-    let api = 'https://erbuc.laont.me/api/direct/?link='
-    let url = api + encodeURIComponent(link);
-    document.getElementById('ready-link').innerText = url;
+  function genLink(value) {
+    if (value == '') {
+      document.getElementById('direct-link').innerText = 'Your link here';
+    } else {
+      let url = `${document.location.origin}/api/direct/?link=${encodeURIComponent(value)}`;
+      document.getElementById('direct-link').innerText = url;
+    }
   }
 </script>
 
