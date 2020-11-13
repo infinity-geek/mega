@@ -40,7 +40,7 @@ yarn start
 
 #### Also with heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/laontme/erbuc)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Author
 Site: [laont.me](https://laont.me)
