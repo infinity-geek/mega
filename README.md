@@ -8,7 +8,7 @@
 ## How to use
 1. Go to [mega.nz](https://mega.nz)
 1. Copy full link of **public** file. Template below
-1. Go to [erbuc.herokuapp.com](https://erbuc.herokuapp.com/)
+1. Go to [vps.laont.me:3001](http://vps.laont.me:3001/)
 1. Paste link, generate direct and use this
 
 ### Selfhosted
@@ -37,10 +37,6 @@ yarn
 $PORT=3000
 yarn start
 ```
-
-#### Also with heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/laontme/erbuc/tree/main)
 
 ## Author
 Site: [laont.me](https://laont.me)
